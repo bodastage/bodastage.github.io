@@ -1,0 +1,16 @@
+.topnav {
+    background: #e9ecef; /** #f5f5f5; **/
+}
+
+.topnav .breadcrumb {
+    padding: 8px 0px;
+    margin: auto;
+}
+
+
+.navbar {
+    background-image: url(../../assets/img/background_image.png);
+    min-height: 120px;
+    z-index: 0;
+    margin-bottom: 0px;
+}
