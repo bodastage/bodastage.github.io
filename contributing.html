@@ -104,50 +104,45 @@
 	</div>
 </section> 
 
+
 <section class="intro">
 	<div class="container">
-		<h3>System Requirements</h3>
+		<h3>Contributing</h3>
 		<p>
-			The following minimum requirements are needed to run BTS-CE.
+			Thank you for interest in contributing to this project. Contributions can be in form of code, documentation, or responses to other users' questions.  All contributions are submitted through <a href="https://github.com/bodastage/bts-ce/compare">Github</a> pull requests. Start by creating a <a href="https://github.com/">Github</a> account if you don't have one already.
+			
+			Detailed instructions are given below.
+		</p>
+		
+		<p>
+			
+			The project has five key repositories: 
 			<ul>
-				<li>4GB memory</li>
-				<li>64 bit OS</li>
-				<li>Docker</li>
-				<li>5GB hard disk space. More will be required depending on your network size</li>
-				<li>Latest web browser</li>
+				<li><a href="https://github.com/bodastage/bts-ce-api">bts-ce-api</a>: This is the REST API implementation</li>
+				<li><a href="https://github.com/bodastage/bts-ce-database">bts-ce-database</a>: Contains the database migration scripts for creating the database entities</li>
+				<li><a href="https://github.com/bodastage/bts-ce-docs">bts-ce-docs</a>: Project documentation</li>
+				<li><a href="https://github.com/bodastage/bts-ce-mediation">bts-ce-mediation</a>: The mediation server which handles parsing and loading of data as well as  and handling scheduled jobs</li>
+				<li><a href="https://github.com/bodastage/bts-ce">bts-ce</a>: Combines everything together</li>
 			</ul>
 		</p>
-
-	
-		<h3>Installing</h3>
-		<p>
-			To deploy the application, follow the instructions below
-			<ol>
-				<li>Download the lastesr version of <a href="https://github.com/bodastage/bts-ce/releases/download/v1.0.22-alpha/BTS-CE-1.0.22-alpha.zip">BTS-CE</a></li>
-				<li>Unzip the file</li>
-				<li>Launch command prompt on Windows or terminal on Unix/Linux</li>
-				<li>
-					From the terminal, change to unzipped BTS-CE folder 
-					<br />
-					<code>$cd /path/to/BTS-CE-v1.0.22</code>
-				</li>
-				<li>Run setup command and follow any instructions given
-					<br />
-					<code>$bts setup</code>
-				</li>
-				<li>Open web broswer and paste the URL http://localhost on windows or http://192.168.99.100</li>
-				<li>Login with username: <strong>btsuser@bodastage.org</strong> and password: <strong>password</strong></li>
-				<li>Refer to the documentation or look at the community page for where to get help</li>
-			</ol>
-		</p>
 		
-		<h3>Get Involved</h3>
+		
+		<h3>Download BTS-CE Repositories</h3>
 		<p>
-			BTS-CE is an open source platform and any help in the form of code, documentation, or answering questions for other users is welcome. 
-			Refer to the <a href="contributing.html">contributing</a> guide for more details.
+			In order to submit changes via GitHub pull requests, you need to fork the above BTS-CE repositories. Once you have your own fork, clone it to your local machine using <a href="https://git-scm.com/">Git</a>.
+			See details of how to fork and create <a href="https://help.github.com/articles/creating-a-pull-request-from-a-fork/">pull request</a>.
+		</p>
+
+		<h3>Report bugs/submit feature requests</h3>
+		<p>
+			Bugs and feature requests can be logged on our <a href="https://github.com/bodastage/bts-ce/issues"></a> issue tracker. Additionaly, each repository has it's own issue tracker that can be used to log it's specific issues.
+			For example, issues concerning the database structure should be logged into the bts-ce-database <a href="https://github.com/bodastage/bts-ce-database/issues">issue tracker</a>
 
 		</p>
 		
+		<p>
+		We rely on the community to test releases, find bugs, contribute fixes and features, and provide feedback on existing APIs. Your contributions are greatly appreciated! 
+		</p>
 	</div>
 </section>
 
